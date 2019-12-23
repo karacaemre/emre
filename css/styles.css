@@ -1,0 +1,152 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+    color: #40514e;
+}
+
+h1{
+  font-size: 5.625rem; /*% 100=16px 90px/16=5.25 or 1em=16px=100% */
+  margin: 50px auto 0;
+  font-family: 'Satisfy', cursive;
+  color: #66BFBF;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  padding-bottom:10px;
+}
+
+  h3{
+    font-family: 'Montserrat', sans-serif;
+    color:#11999E;
+  }
+
+  p{
+    line-height: 2;
+  }
+
+  hr{
+    border-color: #EAF6F6;
+    width: 5%;
+    height: 3px;
+    border-style: dotted none none;
+    border-width: 7px;
+    margin: 100px auto;
+
+  }
+  a {
+   text-decoration: none;
+   font-family: 'Montserrat', sans-serif;
+   color:#11999E;
+   margin: 10px 20px;
+ }
+ a:hover{
+   color: #eaf6f6;
+ }
+
+.top-container{
+  background-color: #eaf6f6;
+  margin: 0;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+  .programmer{
+    font-weight: normal;
+    font-size: 2rem;
+
+  }
+
+
+
+.top-cloud {
+  position:absolute;
+  right:300px;
+  top:40px;
+
+}
+.bottom-cloud{
+  position: absolute;
+left:250px;
+bottom:300px;
+}
+
+  .coding-img{
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+  }
+  .guitar-img{
+  float:right;
+   margin-left: 30px;
+    width: 25%;
+  }
+
+
+.skill-row{
+
+
+  text-align: left;
+  margin: 100px auto;
+  width: 50%;
+}
+
+.profilepic{
+
+  width: 150px;
+}
+
+
+.bottom-container{
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+  font-weight: bold;
+}
+.copyright{
+  color: #eaf6f6;
+  font-weight: normal;
+  padding: 20px 0;
+  font-size: 0.75rem;
+}
+.btn {
+	box-shadow: 0 1px 0 0 #f0f7fa;
+	background:linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+	background-color:#66bfbf;
+	border-radius:8px;
+	border:1px solid #66bfbf;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:9px 24px;
+	text-decoration:none;
+	text-shadow:0 0 0 #5b6178;
+  margin: 40px auto;
+
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #30e3cb 5%, #2bc4ad 100%);
+	background-color:#019ad2;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+.metal-description{
+  width: 48%;
+  margin: 40px auto 60px;
+}
